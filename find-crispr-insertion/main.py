@@ -17,7 +17,10 @@ exception = [] # Can be handled manually,
 # (4) Only target sequence is found.
 
 
-def read_from_sample_data(filename):
+def read_from_sample_data(filename):  
+    ## the fastq file could be 20-30G. You better examine the insertion by each lines and write the result to a file.
+    ## you can check https://htseq.readthedocs.io/en/release_0.11.1/tour.html 
+    ## the htseq will provide functions to deal with fastq files, we will only keep reads with quality score > 30 for analysis
     f = open(filename, "r")
     reads = []
     while True:
@@ -30,7 +33,7 @@ def read_from_sample_data(filename):
 
 def catagorize(reads):
     """
-    Catagorize each read stored and add to the corresponding list.
+    Catagorize each read stored and add to the corresponding list.  
     """
     for each in reads:
         if(P1_SEQUENCE in each and P2_SEQUENCE in each):
