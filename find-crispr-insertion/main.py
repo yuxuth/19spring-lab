@@ -18,7 +18,7 @@ exception = [] # Can be handled manually,
 
 
 def read_from_sample_data(filename):
-    f = open(filename, "r")
+    f = open(filename, "r") ## process by each line, the file could be 30-40 gb
     reads = []
     while True:
         read = f.readline()
