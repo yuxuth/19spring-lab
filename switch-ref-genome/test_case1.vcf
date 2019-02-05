@@ -1,0 +1,17 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##samtoolsVersion=1.1+htslib-1.1
+##bcftools_callVersion=1.1+htslib-1.1
+##reference=ftp://ftp-mouse.sanger.ac.uk/ref/GRCm38_68.fa
+##source_20141009.1=vcf-annotate(r953) -f +/D=50/d=5/q=20/w=2/a=5/ (C3H_HeH)
+##source_20141009.1=vcf-annotate(r953) -f +/D=100/d=5/q=20/w=2/a=5/ (129S5SvEvBrd,ZALENDE_EiJ,LEWES_EiJ)
+##contig=<ID=1,length=195471971>
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	BALB_cJ	C57BL_6NJ
+1	20	id	A	G	228.00	PASS	info	format	1/1:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146	.
+1	8588626	.	C	T	10.80	Het	info	format	.	0/1:0:63:41:0.015873:46,0,255:41,0,265:42:2:18:24,21,18,0:37:.:-0.691153
+1	20	id	A	G	228.00	PASS	info	format	1/1:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146	1/1:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146
+1	20	id	A	G	228.00	PASS	info	format	1/1:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146	1/0:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146
+1	20	id	A	G	228.00	PASS	info	format	1/0:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146	1/1:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146
+1	20	id	A	G	228.00	PASS	info	format	1/0:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146	1/0:1:44:127:0:255,129,0:287,142,0:60:2:44:0,0,25,19:0:.:-0.693146
+1	8588626	.	C	T	10.80	Het	AC=1;AN=2;CSQ=T|ENSMUSG00000025909|ENSMUST00000191683|Transcript|intron_variant||||||||-1,T|ENSMUSG00000093970|ENSMUST00000103887|Transcript|non_coding_transcript_exon_variant&non_coding_transcript_variant|99|||||||-1,T|ENSMUSG00000025909|ENSMUST00000132064|Transcript|intron_variant||||||||-1,T|ENSMUSG00000025909|ENSMUST00000115488|Transcript|intron_variant||||||||-1,T|ENSMUSG00000025909|ENSMUST00000140302|Transcript|intron_variant&NMD_transcript_variant||||||||-1,T|ENSMUSG00000025909|ENSMUST00000140295|Transcript|intron_variant||||||||-1;DP4=24,21,18,0;DP=63;SF=1f	GT:FI:DP:GQ:MQ0F:PL:GP:MQ:AN:DV:DP4:SP:PV4:SGB	.	0/1:0:63:41:0.015873:46,0,255:41,0,265:42:2:18:24,21,18,0:37:.:-0.691153
