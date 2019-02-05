@@ -2,7 +2,7 @@
 # output_file = sys.argv[2]
 input_file = 'balb_b6j_exon.vcf'
 # input_file = 'test_case1.vcf'
-output_file = 'output.txt'
+output_file = 'balb_b6_exon_compared_to_b6j.vcf'
 input = open(input_file,'r')
 output = open(output_file,'w')
 
@@ -48,7 +48,7 @@ for line in input:
     # (2) set the 2nd last colum to 1/1;
     # (3) set the last colum to 1/1.
     if fields[-2]=="." :
-        fields[3],fields[4] = fields[4], fields[3] # Switch ref and alt alleles.
+        fields[3],fields[4] = fields[4][0], fields[3] # Switch ref and alt alleles.
         fields[-2]= set_first_entry_to_11(fields[-2])
         fields[-1]= set_first_entry_to_11(fields[-1])
         output.writelines('\t'.join(fields) + '\n')
@@ -59,7 +59,7 @@ for line in input:
     # (2) set the 2nd last column to ".";
     # (3) set the last colum to 1/1.
     else:
-        fields[3],fields[4] = fields[4], fields[3] # Switch ref and alt alleles.
+        fields[3],fields[4] = fields[4][0], fields[3] # Switch ref and alt alleles.
         fields[-2] = "."
         fields[-1] = set_first_entry_to_11(fields[-1])
         output.writelines('\t'.join(fields) + '\n')
