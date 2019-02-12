@@ -28,6 +28,20 @@ def read_from_sample_data(filename):
     f.close()
     return reads
 
+
+def read_from_fastq(filename):
+    reads = []
+    with open(filename, 'r') as f:
+        while True:
+            f.readline()
+            read = f.readline()
+            if not read:
+                break
+            else:
+                reads.append(read)
+            f.readline()
+            f.readline()
+    return reads
 def catagorize(reads):
     """
     Catagorize each read stored and add to the corresponding list.
@@ -92,14 +106,17 @@ def display(total):
 def main():
 
     # Read data from data source.
-    filename = "sample_data.txt"
-    reads = read_from_sample_data(filename)
+    # filename = "sample_data.txt"
+    # reads = read_from_sample_data(filename)
+    filename = "data/trimmed-mClta_F.fastq"
+    reads = read_from_fastq(filename)
+    for each in reads:
+        print(each)
+    # total = len(reads)
 
-    total = len(reads)
+    # catagorize(reads)
 
-    catagorize(reads)
-
-    display(total)
+    # display(total)
 
 
 if __name__ == '__main__':

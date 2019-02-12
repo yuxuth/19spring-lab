@@ -1,0 +1,203 @@
+LOCUS       Exported                1835 bp ds-DNA     linear   ROD 06-FEB-2019
+DEFINITION  Mus musculus clathrin, light polypeptide (Lca) (Clta), transcript 
+            variant 1, mRNA.
+ACCESSION   NM_001080384
+VERSION     .
+KEYWORDS    .
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus (house mouse)
+REFERENCE   1  (bases 1 to 1835)
+  AUTHORS   Wu S, Majeed SR, Evans TM, Camus MD, Wong NM, Schollmeier Y, Park M,
+            Muppidi JR, Reboldi A, Parham P, Cyster JG, Brodsky FM.
+  TITLE     Clathrin light chains' role in selective endocytosis influences 
+            antibody isotype switching
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 113 (35), 9816-9821 (2016)
+  PUBMED    27540116
+REFERENCE   2  (bases 1 to 1835)
+  AUTHORS   Quesnel-Vallieres M, Irimia M, Cordes SP, Blencowe BJ.
+  TITLE     Essential roles for the splicing regulator nSR100/SRRM4 during 
+            nervous system development
+  JOURNAL   Genes Dev. 29 (7), 746-759 (2015)
+  PUBMED    25838543
+REFERENCE   3  (bases 1 to 1835)
+  AUTHORS   Bu W, Lim KB, Yu YH, Chou AM, Sudhaharan T, Ahmed S.
+  TITLE     Cdc42 interaction with N-WASP and Toca-1 regulates membrane 
+            tubulation, vesicle formation and vesicle motility: implications for
+            endocytosis
+  JOURNAL   PLoS ONE 5 (8), e12153 (2010)
+  PUBMED    20730103
+REFERENCE   4  (bases 1 to 1835)
+  AUTHORS   Molla-Herman A, Ghossoub R, Blisnick T, Meunier A, Serres C, 
+            Silbermann F, Emmerson C, Romeo K, Bourdoncle P, Schmitt A, Saunier 
+            S, Spassky N, Bastin P, Benmerah A.
+  TITLE     The ciliary pocket: an endocytic membrane domain at the base of 
+            primary and motile cilia
+  JOURNAL   J. Cell. Sci. 123 (Pt 10), 1785-1795 (2010)
+  PUBMED    20427320
+REFERENCE   5  (bases 1 to 1835)
+  AUTHORS   Chen H, Ko G, Zatti A, Di Giacomo G, Liu L, Raiteri E, Perucco E, 
+            Collesi C, Min W, Zeiss C, De Camilli P, Cremona O.
+  TITLE     Embryonic arrest at midgestation and disruption of Notch signaling 
+            produced by the absence of both epsin 1 and epsin 2 in mice
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 106 (33), 13838-13843 (2009)
+  PUBMED    19666558
+REFERENCE   6  (bases 1 to 1835)
+  AUTHORS   Lu J, Helton TD, Blanpied TA, Racz B, Newpher TM, Weinberg RJ, 
+            Ehlers MD.
+  TITLE     Postsynaptic positioning of endocytic zones and AMPA receptor 
+            cycling by physical coupling of dynamin-3 to Homer
+  JOURNAL   Neuron 55 (6), 874-889 (2007)
+  PUBMED    17880892
+REFERENCE   7  (bases 1 to 1835)
+  AUTHORS   Kessels MM, Engqvist-Goldstein AE, Drubin DG.
+  TITLE     Association of mouse actin-binding protein 1 (mAbp1/SH3P7), an Src 
+            kinase target, with dynamic regions of the cortical actin 
+            cytoskeleton in response to Rac1 activation
+  JOURNAL   Mol. Biol. Cell 11 (1), 393-412 (2000)
+  PUBMED    10637315
+REFERENCE   8  (bases 1 to 1835)
+  AUTHORS   Smith CJ, Pearse BM.
+  TITLE     Clathrin: anatomy of a coat protein
+  JOURNAL   Trends Cell Biol. 9 (9), 335-338 (1999)
+  PUBMED    10461185
+REFERENCE   9  (bases 1 to 1835)
+  AUTHORS   Scott LM, Mueller L, Collins SJ.
+  TITLE     E3, a hematopoietic-specific transcript directly regulated by the 
+            retinoic acid receptor alpha
+  JOURNAL   Blood 88 (7), 2517-2530 (1996)
+  PUBMED    8839844
+REFERENCE   10  (bases 1 to 1835)
+  AUTHORS   Wong DH, Ignatius MJ, Parosky G, Parham P, Trojanowski JQ, Brodsky 
+            FM.
+  TITLE     Neuron-specific expression of high-molecular-weight clathrin light 
+            chain
+  JOURNAL   J. Neurosci. 10 (9), 3025-3031 (1990)
+  PUBMED    2204686
+REFERENCE   11  (bases 1 to 1835)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Feb 6, 2019 from SnapGene 4.2.11
+            http://www.snapgene.com
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The 
+            reference sequence was derived from AK146965.1 and BE333066.1.
+            On or before Nov 17, 2017 this sequence version replaced 
+            XM_006537590.1, NM_001080384.1.
+            Summary: Clathrin is a large, soluble protein composed of heavy and 
+            light chains. It functions as the main structural component of the 
+            lattice-type cytoplasmic face of coated pits and vesicles which 
+            entrap specific macromolecules during receptor-mediated endocytosis.
+            This gene encodes one of two clathrin light chain proteins which are
+            believed to function as regulatory elements. Alternative splicing 
+            results in multiple transcript variants encoding different isoforms.
+            [provided by RefSeq, Jul 2008].
+            Transcript Variant: This variant (1) differs in the 5' UTR and lacks
+            alternate in-frame exons, compared to variant 2, resulting in a 
+            shorter protein (isoform a), compared to isoform b.
+            
+            Publication Note:  This RefSeq record includes a subset of the 
+            publications that are available for this gene. Please see the Gene 
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AK146965.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMN00849388, SAMN01164134
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+FEATURES             Location/Qualifiers
+     source          1..1835
+                     /organism="Mus musculus"
+                     /chromosome="4"
+                     /map="4"
+                     /strain="C57BL/6"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10090"
+     source          1426..1531
+                     /organism="Mus musculus"
+                     /chromosome="11"
+                     /map="11 12.88 cM"
+                     /strain="C57BL/6"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10090"
+     gene            1..1835
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /label=Clta
+                     /note="clathrin, light polypeptide (Lca)"
+                     /db_xref="GeneID:12757"
+                     /db_xref="MGI:MGI:894297"
+     exon            1..249
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     exon            250..996
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     exon            997..1034
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     exon            1035..1152
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     exon            1153..1264
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     exon            1265..1818
+                     /gene="Clta"
+                     /gene_synonym="AV026556; Lca"
+                     /inference="alignment:same species:2.0.8"
+     primer_bind     1371..1390
+                     /label=Genomic Primer - For
+                     /label=Genomic Primer
+     misc_feature    complement(1426..1531)
+                     /label=Rev_Int
+     CDS             1440..1466
+                     /codon_start=1
+                     /product="HA (human influenza hemagglutinin) epitope tag"
+                     /label=HA
+                     /translation="YPYDVPDYA"
+     CDS             complement(1482..1508)
+                     /codon_start=1
+                     /product="HA (human influenza hemagglutinin) epitope tag"
+                     /label=HA
+                     /translation="YPYDVPDYA"
+     primer_bind     complement(1618..1642)
+                     /label=Genomic Primer - Rev
+ORIGIN
+        1 tctatgacct gaagcaaagt cagctggatg gccttgagct gttccactgt acaggtgaaa
+       61 tggtttggcc cccactgact tggcttggag tcaccaccac caccatgtcc gtgactctgc
+      121 tcagcctggc cagggtgtaa ggaggagcta gagacttctt ttatagcaat ggacctttga
+      181 gagagctctg ctcacttgga cttttgggct ctctctcttt ttggcttggc ttcatagaag
+      241 gagatccagg gtggtaacat taaatggtaa ctgcacttct cttggtctat gcacccataa
+      301 aatttttcaa tcatccagga gggaggcaat gcaagattct tctaccagct ttccaagcga
+      361 ggacactgag gttcagaaac acccagtggt tgtgtgttga gtagtcggga agagctcacg
+      421 tccctgatgc ccacaaatgg ctgttcctga tcactccagc tcccgatgct cggcgactcc
+      481 cagcttcccc tagggtggca cttccgctgg ctcttccttc tgctcccagt cacgagttgt
+      541 ccccagggct cctccccttt gccagctgat tgggcagctc ccgtcttctg attggctgtt
+      601 ctttttgtgg ctcaccaacc caaccggata tagaagcagg gtttccgctt ccaccttctc
+      661 cctcttctcg ctcgtcctcc ggtagcagcc gccagcacag tgtcggctgc tgggcggggt
+      721 gtcggcggat cggtcggttg gtttcggctt cggcgtctct gcggttgagt tgggctgtca
+      781 tggccgagtt ggatccattc ggcgctcccg ccggtgcgcc cggtggcccc gctctaggaa
+      841 acggggtggc gggcgccggc gaagaagacc cggccgcggc cttcttggcg cagcaagaga
+      901 gtgagattgc gggcatcgag aacgatgagg ccttcgccat cctggacggc ggcgcccccg
+      961 ggccgcagcc acacggcgag ccgccgggag gtccggatgc tgttgacgga gtgatgaatg
+     1021 gtgaatacta ccaggagagc aatggtccaa cagacagtta cgcagccatt tcagaagtgg
+     1081 atcgattgca gtcagagcct gaaagtatcc gtaagtggag agaagagcag acagagcgcc
+     1141 tggaagccct cgatgccaat tctcggaagc aagaagcgga gtggaaagaa aaggcgataa
+     1201 aggagctgga agagtggtat gcgaggcagg acgagcagct acagaagaca aaggcaaaca
+     1261 acagggcagc agaagaagcc tttgtaaacg acattgacga gtcatcccca ggcactgagt
+     1321 gggagcgggt ggcccgcctg tgtgacttta accccaagtc cagcaaacag gccaaagatg
+     1381 tctctcgcat gcgctcagtc ctcatctccc tgaagcaggc ccccctacag gctcgagctt
+     1441 atccctatga cgttcctgac tatgctctag ctagctagct atgcgtaatc cggtacatcg
+     1501 taagggtagg atccgacgct tccgagtacg gtggtgcact gaagagccac cctgtggaaa
+     1561 cactacgtct acaatatctt aatcctactc agtgaagctg ttcacgtaat tggattaatt
+     1621 atgttgagtt cttttggacc aaaccttttg tctttagagt tgatcattgt ttgtgattgc
+     1681 atgtttcctt caactgtgtt ctccctggca ttcagagacg agagaggaag aggaagggag
+     1741 aggagctccc gacagtagcc tcaacctgtg cttttgtgca ttattctgag aataaatttc
+     1801 tgtttcaaac aatgtataaa aaaaaaaaaa aaaaa
+//
