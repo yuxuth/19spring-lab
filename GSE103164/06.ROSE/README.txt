@@ -1,3 +1,15 @@
+=====Add by Mingkuan=====
+
+Things to do:
+Download .bam & .bai files from 01.Mappings and put them to data/ directory.
+
+Command to run:
+python ROSE_main.py -g mm10 -i data/T0_H3K27ac.outputPeaks.gff -r data/T0_H3K27ac_a.SRR5984122.out.bam -c data/T0_INPUT_a.SRR5984132.out.bam -o T0_H3K27ac_a.out -s 12500 -t 2500
+
+Why the other 3 are not working: 
+SRR5984132 is a code specific for T0-a combination. It needs to be dynamically adjusted based on T1/T3 and a/b. 
+
+
 =====ROSE: RANK ORDERING OF SUPER-ENHANCERS=====
 
 ROSE IS RELEASED UNDER THE MIT X11 LICENSE
