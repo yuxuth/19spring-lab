@@ -57,7 +57,8 @@ def catagorize_fastq(matched,filename):
     for read in fastq_reader:
         if read.name.split(" ")[0] in matched:
             counter+=1
-            read.write_to_fasta_file(aligned_output)
+#             read.write_to_fasta_file(aligned_output)
+            read.write_to_fastq_file(aligned_output) ## write fastq keep the quality score
         else:
             read.write_to_fasta_file(unaligned_output)
 
